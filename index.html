@@ -2,105 +2,125 @@
 <html lang="it">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Corriere Layout Project</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corriere Layout Project</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<header class="top-header">
 
-<h1>Corriere della Sera</h1>
+  <div class="top-bar">
+    <span>Mercoledì 29 Aprile 2026</span>
+    <span>Login</span>
+  </div>
 
-<nav>
-<ul>
-<li>Politica</li>
-<li>Economia</li>
-<li>Sport</li>
-<li>Cultura</li>
-<li>Tecnologia</li>
-</ul>
-</nav>
+  <h1 class="logo">Corriere della Sera</h1>
+
+  <nav>
+    <ul>
+      <li>Politica</li>
+      <li>Economia</li>
+      <li>Sport</li>
+      <li>Cultura</li>
+      <li>Tecnologia</li>
+    </ul>
+  </nav>
 
 </header>
 
+<main class="main-layout">
 
-<main>
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2>Trending</h2>
 
-<section class="hero">
+    <article class="news-text">
+      <h4>Notizia importante</h4>
+      <p>Lorem ipsum dolor sit amet</p>
+      <span>1h fa</span>
+    </article>
 
-<img src="https://placehold.co/900x400" alt="main news">
+    <article class="news-text">
+      <h4>Ultime news</h4>
+      <p>Lorem ipsum dolor sit amet</p>
+      <span>2h fa</span>
+    </article>
 
-<h2>Articolo principale</h2>
+    <article class="news-text">
+      <h4>Politica</h4>
+      <p>Lorem ipsum dolor sit amet</p>
+      <span>3h fa</span>
+    </article>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </aside>
 
-</section>
+  <!-- CONTENU -->
+  <section class="content">
 
+    <!-- HERO -->
+    <section class="hero">
+      <img src="https://placehold.co/900x400" alt="main news">
+      <span class="category">PRIMO PIANO</span>
+      <h2>Articolo principale</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
 
-<section class="news-grid">
+    <!-- GRID -->
+    <section class="news-grid">
 
-<article>
-<img src="https://placehold.co/300x200" alt="news">
-<h3>Articolo 1</h3>
-</article>
+      <article class="card">
+        <img src="https://placehold.co/300x200">
+        <span class="category">POLITICA</span>
+        <h3>Articolo 1</h3>
+        <p>Lorem ipsum dolor sit amet</p>
+        <span>2h fa</span>
+      </article>
 
-<article>
-<img src="https://placehold.co/300x200" alt="news">
-<h3>Articolo 2</h3>
-</article>
+      <article class="card">
+        <img src="https://placehold.co/300x200">
+        <span class="category">ECONOMIA</span>
+        <h3>Articolo 2</h3>
+        <p>Lorem ipsum dolor sit amet</p>
+        <span>3h fa</span>
+      </article>
 
-<article>
-<img src="https://placehold.co/300x200" alt="news">
-<h3>Articolo 3</h3>
-</article>
+      <article class="card">
+        <img src="https://placehold.co/300x200">
+        <span class="category">SPORT</span>
+        <h3>Articolo 3</h3>
+        <p>Lorem ipsum dolor sit amet</p>
+        <span>4h fa</span>
+      </article>
 
-<article>
-<img src="https://placehold.co/300x200" alt="news">
-<h3>Articolo 4</h3>
-</article>
+      <article class="card">
+        <img src="https://placehold.co/300x200">
+        <span class="category">TECH</span>
+        <h3>Articolo 4</h3>
+        <p>Lorem ipsum dolor sit amet</p>
+        <span>5h fa</span>
+      </article>
 
-<article>
-<img src="https://placehold.co/300x200" alt="news">
-<h3>Articolo 5</h3>
-</article>
+    </section>
 
-<article>
-<img src="https://placehold.co/300x200" alt="news">
-<h3>Articolo 6</h3>
-</article>
+    <!-- VIDEOS -->
+    <section class="videos">
+      <h2>Videos</h2>
+      <div class="video-box">
+        <img src="https://placehold.co/800x300">
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+      </div>
+    </section>
 
-</section>
-
-
-<section class="secondary">
-
-<article>
-<img src="https://placehold.co/400x250" alt="news">
-<h3>Articolo secondario</h3>
-</article>
-
-<article>
-<img src="https://placehold.co/400x250" alt="news">
-<h3>Articolo secondario</h3>
-</article>
-
-</section>
+  </section>
 
 </main>
 
-
 <footer>
-
-<p>© Corriere Layout Project</p>
-
+  <p>© Corriere Layout Project</p>
 </footer>
 
 </body>
-
 </html>
